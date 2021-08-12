@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  color: var(--transparent-white);
+  margin: 0;
+}
+h2 {
+  margin: 0;
+  font-family: Big Shoulders Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: var(--very-light-gray);
+}
+
+p {
+  margin-top: 25px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > div > div {
+  height: 33.33vh;
+  padding-top: 123px;
+  padding-left: 49px;
+  padding-right: 49px;
+}
+
+.container > div:first-child {
+  background-color: var(--bright-orange);
+}
+.container > div:nth-child(2) {
+  background-color: var(--dark-cyan);
+}
+.container > div:last-child {
+  background-color: var(--very-dark-cyan);
+}
+.bright-orange {
+  background-image: url(images/icon-sedans.svg);
+  background-repeat: no-repeat;
+  background-position: 49px 48px;
+}
+
+.dark-cyan {
+  background-image: url(images/icon-suvs.svg);
+  background-repeat: no-repeat;
+  background-position: 49px 48px;
+}
+
+.very-dark-cyan {
+  background-image: url(images/icon-luxury.svg);
+  background-repeat: no-repeat;
+  background-position: 49px 48px;
+}
+
+.learn-more {
+  margin-top: 25px;
+  background: var(--very-light-gray);
+  border-radius: 25px;
+  height: 48px;
+  width: 146px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.learn-more:hover {
+  cursor: pointer;
+  background: none;
+  color: white !important;
+  border: 1px solid white;
+}
+
+.bright-orange .learn-more {
+  color: var(--bright-orange);
+}
+.dark-cyan .learn-more {
+  color: var(--dark-cyan);
+}
+.very-dark-cyan .learn-more {
+  color: var(--very-dark-cyan);
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container > div {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+}
