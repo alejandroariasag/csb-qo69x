@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](https://alejandroariasag.github.io/csb-qo69x/images//screenshot.jpg)
+![Screenshot](https://github.com/alejandroariasag/csb-qo69x/blob/gh-pages/images/screenshot.png?raw=true)
 
 ### Links
 
