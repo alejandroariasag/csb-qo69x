@@ -22,12 +22,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](https://github.com/alejandroariasag/csb-qo69x/blob/gh-pages/images/screenshot.png?raw=true)
+![Screenshot](https://github.com/aleckbeu/3-column-preview-card-component/blob/gh-pages/images/screenshot.png?raw=true)
 
 ### Links
 
-- Github URL: https://github.com/alejandroariasag/csb-qo69x/
-- Live Site URL: https://alejandroariasag.github.io/csb-qo69x/
+- Github URL: https://github.com/aleckbeu/3-column-preview-card-component/
+- Live Site URL: https://aleckbeu.github.io/3-column-preview-card-component/
 
 ## My process
 
