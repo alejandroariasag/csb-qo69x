@@ -22,12 +22,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](https://github.com/aleckbeu/3-column-preview-card-component/blob/gh-pages/images/screenshot.png?raw=true)
+![Screenshot](https://github.com/swckd/3-column-preview-card-component/blob/gh-pages/images/screenshot.png?raw=true)
 
 ### Links
 
-- Github URL: https://github.com/aleckbeu/3-column-preview-card-component/
-- Live Site URL: https://aleckbeu.github.io/3-column-preview-card-component/
+- Github URL: https://github.com/swckd/3-column-preview-card-component/
+- Live Site URL: https://swckd.github.io/3-column-preview-card-component/
 
 ## My process
 
@@ -41,4 +41,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [The Quiff Republic](https://www.thequiffrepublic.com)
+- Website - 
